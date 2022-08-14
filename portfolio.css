@@ -1,9 +1,10 @@
 body {
     margin: 0px;
     padding: 0px;
-    
-    
+
+
     background-color: #34364f;
+    background-color: #1B2430;
     background-color: #0D1821;
     /* coolors 
     1.#0D1821
@@ -13,29 +14,31 @@ body {
     5.#BFCC94
     
     */
-    
-    
+
+
     background-repeat: no-repeat;
     background-position: center center;
-    
-    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-family:Apercu,"Source Sans Pro",system,system-ui,-apple-system,BlinkMacSystemFont,Roboto,Helvetica,Arial,sans-serif;
-    
+
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: Apercu, "Source Sans Pro", system, system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif;
+
 
 }
 
 
-html{
+html {
     scroll-behavior: smooth;
 }
 
 
 /*          *******                       Navbar      *******              */
 
-.icon{
+.icon {
     position: absolute;
-     top: 3vw;                                    /* 44rem changed to 3vw */
-    left: 3vw;                                    /* 41rem changed to 3vw */
+    top: 3vw;
+    /* 44rem changed to 3vw */
+    left: 3vw;
+    /* 41rem changed to 3vw */
     background-color: #0D1821;
     /* border-radius: 10px; */
     cursor: pointer;
@@ -46,43 +49,44 @@ html{
 
     display: flex;
     align-items: center;
-     /* position: relative;  */
-     float: right; 
-     /* border: 1px solid yellow; */
-     
+    /* position: relative;  */
+    float: right;
+    /* border: 1px solid yellow; */
 
-} 
+
+}
 
 
 .navbar ul {
     display: flex;
-   
+
 
 }
 
 .navbar ul li {
     list-style: none;
-    font-size: 1.3vw;                         /*1.2rem  changed to 1.3vw*/
+    font-size: 1.3vw;
+    /*1.2rem  changed to 1.3vw*/
     /* transition: all 2s cubic-bezier(0.645,0.045,0.355,1); */
 }
 
 .navbar ul li a {
     /* color: black; */
     margin: 2rem 10rem 0rem 7rem;
-    /* text-decoration: none; */
+    text-decoration: none;
     display: block;
     padding: 0.4rem 1rem;
     border-radius: 0.4rem;
     color: rgb(188, 188, 188);
     /* color: #F0F4EF; */
-    
+
 
 }
 
-.navbar ul li a:after{
- 
+.navbar ul li a:after {
+
     content: "";
-    position: relative; 
+    position: relative;
     display: block;
     height: 2px;
     bottom: 0;
@@ -93,13 +97,13 @@ html{
     width: 0;
 }
 
-.navbar ul li a:hover:after{
-    
+.navbar ul li a:hover:after {
+
     width: 100%;
-    left:0;
+    left: 0;
 }
 
-.navbar ul li a:hover{
+.navbar ul li a:hover {
     color: #F15412;
 }
 
@@ -113,7 +117,7 @@ html{
 
 /*          *******                Left side         *******           */
 
-.left{
+.left {
     display: inline-block;
     position: fixed;
     float: left;
@@ -122,39 +126,39 @@ html{
 
 
 
-.left ul li{
-        list-style: none;
-        
+.left ul li {
+    list-style: none;
+
 }
 
-.left ul li a{
+.left ul li a {
     /* color: white; */
     color: #344966;
     color: rgb(188, 188, 188);
-    
+
 }
-.left svg{
+
+.left svg {
     vertical-align: middle;
     padding: 20px;
 }
 
-.left svg:hover{
+.left svg:hover {
     transform: translateY(-0.25em);
     transition: all 0.2s;
     color: #F15412;
 }
 
 
-.giticon{
+.giticon {
     width: 20px;
     height: 20px;
-    
-    
+
 }
 
 
 
-.left ul::after{
+.left ul::after {
     content: "";
     width: 1px;
     height: 180px;
@@ -177,8 +181,8 @@ html{
 
 /*             *******       right       *******                      */
 
-.email{
-    
+.email {
+
     display: inline-block;
     float: right;
     position: fixed;
@@ -190,25 +194,26 @@ html{
     width: 40px;
 }
 
-.email a{
+.email a {
     writing-mode: vertical-rl;
     padding: 10px;
     margin: 20px auto;
-    color:rgb(188, 188, 188) ;
+    color: rgb(188, 188, 188);
     /* color: #344966; */
     transition: height 0.5s;
+    text-decoration: none;
 }
 
-.email a:hover{
+.email a:hover {
     color: #F15412;
     transform: translateY(-0.25em);
     transition: all 0.2s;
     /* color: #F0F4EF; */
-    
+
 
 }
 
-.email::after{
+.email::after {
     content: "";
     width: 1px;
     height: 183px;
@@ -229,7 +234,7 @@ html{
 
 /*               ******      Main heading         *******                    */
 
-.main-heading-container{
+.main-heading-container {
 
     /* border: 4px solid red; */
     display: inline-block;
@@ -240,30 +245,31 @@ html{
     /* color: #B4CDED; */
     width: 78rem;
     height: 30rem;
-    
-    
+
+
 
 
 }
 
-.heading{
+.heading {
     float: left;
-    
+
 }
 
 
-.mainhead{
+.mainhead {
 
     margin-top: 1rem;
     margin-bottom: 1rem;
-    font-size: 5vw;
+    font-size: 6vw;
     color: #B4CDED;
+    /* color: #0D1821; */
     color: #E1EBEF;
-   
+
 
 }
 
-.heading span{
+.heading span {
     /* content: "";
     position: relative;
     background-color: #F15412;
@@ -280,7 +286,7 @@ html{
     /* background-image: linear-gradient(0deg,#f15412 0,#f15412 35%,transparent 0,transparent); */
 }
 
-.heading p{
+.heading p {
     font-size: 1.2vw;
     margin: 1.9rem 0 1.9rem 0;
     color: rgb(188, 188, 188);
@@ -295,18 +301,56 @@ html{
 /*           *******             About           *******                         */
 .about-container {
     color: white;
-    display: inline-block;
-    /* text-align: center; */
-    /* border: 1px solid yellow; */
+    /* display: inline-block; */
+    /* text-align: center; 
+    border: 1px solid yellow;
     width: 75rem;
-    height: 45rem;
+    height: 80rem;
+    height: auto; */
     margin-left: 13rem;
+    /* border: 1px solid yellow; */
+
 }
 
+#heading2 {
 
-#heading3{
-    margin-top: 4rem;
+    /* position: absolute; */
+    font-size: 5vw;
+    display: flex;
+    /* justify-content: right; */
+    /* color:#B4CDED; */
+    /* color:transparent; */
+    z-index: 20;
+    -webkit-text-stroke: 0.5px #B4CDED;
+    /* -webkit-text-stroke: 0.8px #f06428; */
+    -webkit-text-fill-color: transparent;
+
 }
+
+/* #heading2::after{
+    color: #F15412;
+    content: "~~~~~~~~~~~~~~~~~~";
+    font-size: 2vw;
+    position: absolute;
+    top: 55rem;
+    /* overflow: hidden; 
+} */
+
+.info {
+    padding: 1rem;
+    background: #0D1821;
+    background: #1B2430;
+    /* background: #51557E; */
+    width: 100%;
+    max-width: 62rem;
+    box-shadow: 0px 12px 10px 8px rgba(0, 0, 0, 0.1);
+    z-index: 30;
+    position: relative;
+    top: 30%;
+    /* left: 5%; */
+    border-radius: 10px;
+}
+
 
 /* .about-container h2::after{
     content: "";
@@ -317,44 +361,72 @@ html{
     margin: 0 0 8px 20px;
 } */
 
-.about-container p, span{
+
+
+.about-container p,
+span {
     color: rgb(188, 188, 188);
+    font-size: 1.1vw;
     /* color: #B4CDED; */
 }
 
-.work2{
-
+.work2 {
     margin-left: 1rem;
-}
-
-
-.list span::before{
-    content: "▹";
     color: #F15412;
-    /* color: #F0F4EF; */
 }
 
-.skill-container{
+
+.list span::before {
+    content: "▹";
+    /* color: #F15412; */
+    color: #F0F4EF;
+}
+
+
+
+#heading3 {
+    margin-right: 10rem;
+    margin-top: 7rem;
+    text-align: right;
+    font-size: 5vw;
+    -webkit-text-stroke: 1px #B4CDED;
+    -webkit-text-fill-color: transparent;
+}
+
+.skill-container {
     display: flex;
     flex-wrap: wrap;
-    /* justify-content: center; */
-    
-    
+    /* justify-content: space-between; */
+    background-color: #0D1821;
+    background-color: #1B2430;
+    width: 66rem;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0px 12px 10px 8px rgba(0, 0, 0, 0.1);
 }
 
-.skill-container img{
+.skills {
+
+    display: flex;
+    /* flex-wrap: wrap; */
+    margin-top: 2.5rem;
+
+
+}
+
+.skill-container img {
 
     padding: 0 1vw 0 7.2vw;
     /* float: left; */
     /* justify-content: center; */
-    margin-top: 2rem;
-    
-} 
+    /* margin-top: 19rem; */
 
-.skill-container p{
+}
+
+.skill-container p {
     font-size: 2.1vw;
-    margin-top: 4.2rem;
-   
+    display: flex;
+
 }
 
 
@@ -362,67 +434,81 @@ html{
 
 /*        *******          Projects        *******          */
 
-.frontend{
+.frontend {
     color: #F15412;
 }
 
 
-.sub-heading{
-    color: #F15412;
-    font-size: 1.2rem;
+.sub-heading {
+    /* color: #F15412; */
+    text-align: center;
+    font-size: 2vw;
 }
 
 .project-container {
     color: white;
-    display: inline-block;
-    text-align: center;
     /* border: 1px solid blue; */
-    width: 99.8%;
+    /* width: 99.8%; */
     /* margin: 3rem 1rem 0 0; */
-    height: 100rem;
+    /* height: 100rem; */
+    margin-left: 13rem;
+
 }
 
 
-.project-container h2{
-    font-size: 3rem;
+.project-container h2 {
+    font-size: 5vw;
+    -webkit-text-stroke: 1px #B4CDED;
+    -webkit-text-fill-color: transparent;
 }
 
-.webdev-projects{
+.projects {
     display: flex;
-}
-
-.frontend{
-    font-size: 1.6rem;
-   
-}
-
-.lib-img{
-    position: absolute;
-    width: 40rem;
-    float: right;
-    margin-top: 4rem;
+    margin: auto;
+    margin-right: 15rem;
+    /* flex-wrap: wrap; */
+    /* flex-direction:row; */
+    background-color: #0D1821;
+    background-color: #1B2430;
+    width: 65vw;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0px 12px 10px 8px rgba(0, 0, 0, 0.1);
 
 }
 
-.lib-para{
 
-    position: absolute;
-    margin-top: 4rem;
-    width: 30rem;
-    height: 19rem;
-    /* border: 2px solid red; */
-    left: 15rem;
+
+.lib-img {
+    display: flex;
+    margin: auto;
+    width: 40vw;
+    /* display: block; */
+    /* float: right; 
+    margin-top: 4rem;*/
+
 }
 
 
-.library-project p{
-
-   position: relative;
-   top: 5rem;
-   line-height: 1.8;
+.library-project p {
+    /* top: 5rem; */
+    line-height: 1.8;
 }
 
-.rest-img{
+
+.arrow {
+    font-size: 2rem;
+    display: flex;
+    margin: auto;
+}
+
+.arrow:hover {
+    cursor: pointer;
+    color: #F15412;
+}
+
+
+.rest-img {
     position: relative;
     width: 40rem;
     float: left;
@@ -431,7 +517,7 @@ html{
 
 }
 
-.rest-para{
+.rest-para {
     position: relative;
     top: 40rem;
     width: 30rem;
@@ -441,36 +527,36 @@ html{
     right: 10rem;
 }
 
-.rest-para p{
+.rest-para p {
     position: relative;
     top: 5rem;
     line-height: 1.8;
-    
+
 }
 
 
 /* https://github.com/MadhavaY/Library-website-using-Javascript */
 
 
-#git-project-link{
+#git-project-link {
     width: 20px;
     height: 20px;
     cursor: pointer;
     position: absolute;
     margin-left: 0.5rem;
     margin-top: 0.3rem;
-    
+
 }
 
-#git-project-link:hover{
+#git-project-link:hover {
     color: #F15412;
 }
 
-.projects a{
+.projects a {
     color: white;
- }
+}
 
- .net-img{
+.net-img {
 
     position: relative;
     width: 40rem;
@@ -479,4 +565,22 @@ html{
     top: 55rem;
     right: 10rem;
 
- }
+}
+
+#projectButton {
+
+    font-family: sans-serif;
+    color: #F0F4EF;
+    padding: 0.8rem;
+    background-color: #F15412;
+    border: 0px transparent;
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+
+
+#projectButton:hover{
+    cursor: pointer;
+    background-color: #344966;
+    border: 1px solid #0D1821;
+}
