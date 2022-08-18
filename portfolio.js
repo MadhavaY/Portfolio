@@ -94,7 +94,8 @@ function myFunction() {
 
   let nxtarrow = document.getElementById('next-arrow');
   let prevarrow = document.getElementById('prev-arrow');
-
+  console.log(nxtarrow);
+  console.log(prevarrow);
 
   let heading = document.getElementById('title');
   let text = document.getElementById('text');
@@ -118,31 +119,12 @@ function myFunction() {
     heading.innerHTML = title;
     text.innerHTML = para;
     img.src = imgsrc;
-    
-    // setTimeout(Projects, 4000);
+
     }
 
   
+// ********** Blogs *********
 
+let title = document.getElementById('Blog-title');
 
-
-// let ProjectSlides = 0;
-//  Projects();
-
-//  function Projects(){
-//   let i;
-//   let slides = document.getElementsByClassName('Slides');
-
-//   for(i = 0; i< slides.length; i++){
-//        slides[i].style.display = "none";
-//   }
-
-//   ProjectSlides++;
-
-//   if(ProjectSlides > slides.length){
-//     ProjectSlides = 1
-//   }
-  
-//   slides[ProjectSlides-1].style.display = "block";
-//   setTimeout(Projects, 4000);
-//  }
+title.innerHTML = "Blogs";
