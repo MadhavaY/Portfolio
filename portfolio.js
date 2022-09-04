@@ -173,3 +173,53 @@ function myFunction() {
 let title = document.getElementById('Blog-title');
 
 title.innerHTML = "Blogs";
+
+
+
+// ********* Dark mode ********
+
+const checkbox = document.getElementById('checkbox');
+// const text = document.getElementById()
+
+checkbox.addEventListener('change', ()=>{
+
+  document.body.classList.toggle('light');
+ 
+  // navbra
+  $('.navbar ul li a').toggleClass('light');
+
+
+  // left
+  $('.left ul li a').toggleClass('light');
+  $('.left ul::after').toggleClass('light');
+
+  // right
+  $('.email a').toggleClass('light');
+  $('.email::after').toggleClass('light');
+
+  // mainhead
+  $('.main-heading-container').toggleClass('light');
+  $('.mainhead').toggleClass('light');
+  $('.heading p').toggleClass('light');
+
+  // about
+  $('#heading2').toggleClass('light');
+  $('.info').toggleClass('light');
+  $('.about-container p,span').toggleClass('light');
+  $('#heading3').toggleClass('light');
+  $('.skill-container').toggleClass('light');
+
+  // projects
+  $('#project-heading').toggleClass('light');
+  $('.projects').toggleClass('light');
+  $('.library-project p').toggleClass('light');
+  $('#git-project-link').toggleClass('light');
+
+  // blogs
+  $('.blogs h2').toggleClass('light');
+  $('.blog h3').toggleClass('light');
+  $('.blog').toggleClass('light');
+  $('.blog p').toggleClass('light');
+
+  
+})

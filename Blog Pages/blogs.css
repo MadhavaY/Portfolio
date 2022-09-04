@@ -27,16 +27,19 @@
 
 .text{
     display: flex;
-    justify-content: space-around;
     font-size: 1.3vw;
     color: antiquewhite;
 }
 
+.text li{
+    list-style: none;
+    
+}
 
-.mind-image, .balance-image, 
-.chakra-glands{
+.images{
     display: flex;
     margin: auto;
+    width: 18vw;
 }
 
 
