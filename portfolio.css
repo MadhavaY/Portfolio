@@ -1,3 +1,4 @@
+
 body {
     margin: 0px;
     padding: 0px;
@@ -38,6 +39,9 @@ body.light{
 html {
     scroll-behavior: smooth;
 }
+
+
+    
 
 
 /*          *******                       Navbar      *******              */
@@ -893,4 +897,144 @@ font-size: 1vw;
 margin: auto;
 display: flex;
 justify-content: center;
+}
+
+
+
+
+
+
+/* *********  Media Queries ********* */
+
+
+/* Tablet */
+
+@media only screen and (max-width: 1200px) and (min-width:768px){
+
+    .navbar{
+        display: none;
+    }
+
+    .left{
+        display: none;
+    }
+
+    .email{
+        display: none;
+    }
+
+    .main-heading-container{
+        margin: 9rem auto auto 10px;
+    }
+
+
+    .about-container {
+        margin-left: 10px;
+        padding: 1rem;
+    }
+
+    #heading2::after{
+        top: 4rem;
+        left: -17rem;
+    }
+
+    .info {
+        padding: 1rem;
+        /* width: 100%; */
+        max-width: 50rem;
+    }
+
+    #heading3 {
+        margin-right: 5rem;
+    }
+    #heading3::after {
+        left: 37rem;
+    }
+
+    .skill-container {
+        width: 45rem;
+        padding: 1rem;
+    }
+
+    .skill-container img {
+        margin: 0 3.5rem 1rem 3.5rem;
+        width: 5rem;
+    }
+
+
+    /* .project-container {
+        width:55rem;
+    } */
+
+    .blogs h2::after{
+        left: 28rem;
+    }
+
+} 
+
+
+
+/* Tablet with portrait display */
+
+ @media only screen and (max-width:768px) /*and (min-width:600px)*/{ 
+
+    .navbar{
+        display: none;
+    }
+
+    .left{
+        display: none;
+    }
+
+    .email{
+        display: none;
+    }
+
+    .main-heading-container{
+        margin: 9rem auto auto 10px;
+    }
+
+
+    .about-container {
+        margin-left: 10px;
+        padding: 1rem;
+    }
+
+    #heading2::after{
+        top: 4rem;
+        left: -17rem;
+    }
+
+    .info {
+        padding: 1rem;
+        /* width: 100%; */
+        max-width: 50rem;
+    }
+
+    #heading3 {
+        margin-right: 5rem;
+    }
+    #heading3::after {
+        left: 37rem;
+    }
+
+    .skill-container {
+        width: 45rem;
+        padding: 1rem;
+    }
+
+    .skill-container img {
+        margin: 0 3.5rem 1rem 3.5rem;
+        width: 5rem;
+    }
+
+
+    /* .project-container {
+        width:55rem;
+    } */
+
+    .blogs h2::after{
+        left: 28rem;
+    }
+
 }
