@@ -426,7 +426,6 @@ html {
     padding: 2rem;
     background: #0D1821;
     background: #1B2430;
-   
 
     /* background: #51557E; */
     width: 100%;
@@ -576,7 +575,7 @@ span {
     /* height: 100rem; */
     margin-left: 11rem;
     padding: 2rem;
-
+    
 }
 
 
@@ -600,18 +599,14 @@ span {
 
 .projects {
     display: flex;
-    margin: auto;
     margin-right: 15rem;
-    /* flex-wrap: wrap; */
-    /* flex-direction:row; */
     background-color: #0D1821;
     background-color: #1B2430;
-    /* background-color: #769FCD; */
-    /* width: 65vw; */
+    width: 65vw;
     padding: 2rem;
     border-radius: 10px;
     box-shadow: 0px 12px 10px 8px rgba(0, 0, 0, 0.1);
-
+    
 }
 
 
@@ -976,7 +971,7 @@ justify-content: center;
 
 /* Tablet with portrait display */
 
- @media only screen and (max-width:768px) /*and (min-width:600px)*/{ 
+ @media only screen and (max-width:768px) and (min-width:600px){ 
 
     .navbar{
         display: none;
@@ -989,6 +984,9 @@ justify-content: center;
     .email{
         display: none;
     }
+
+
+    /* Main heading */
 
     .main-heading-container{
         margin: 9rem auto auto 10px;
@@ -1035,6 +1033,86 @@ justify-content: center;
 
     .blogs h2::after{
         left: 28rem;
+    }
+
+}
+
+
+
+
+/* Phone */
+
+@media only screen and (max-width:600px){ 
+
+    .navbar{
+        display: none;
+    }
+
+    .left{
+        display: none;
+    }
+
+    .email{
+        display: none;
+    }
+
+
+    /* Main heading */
+
+    .main-heading-container{
+        margin: 9rem auto auto 10px;
+    }
+
+
+    /*  About */
+
+    .about-container {
+        margin-left: 10px;
+        padding: 1rem;
+    }
+
+    #heading2::after{
+        top: 4rem;
+        left: 1rem;
+    }
+
+    .info {
+        padding: 0.5rem;
+        /* width: 100%; */
+        width: 21rem;
+    }
+
+    #heading3 {
+        margin-right: 5rem;
+    }
+
+    #heading3::after {
+        left: 10rem;
+    }
+
+    .skill-container {
+        padding: 0.5rem;
+        width: 21rem;
+    }
+
+    .skill-container img {
+        margin: 0 1.3rem 1rem 1.3rem;
+        width: 3rem;
+    }
+
+    .project-container {
+        margin-top: 9rem;
+        margin-left: 1.5rem;
+        padding: 1rem;
+        /* width: 34rem;  */
+    }
+
+    .lib-img {
+        width: 15rem;
+    }
+
+    .blogs h2::after{
+        left: 11.5rem;
     }
 
 }
