@@ -599,7 +599,7 @@ span.light {
 
 .projects {
     display: flex;
-    margin-right: 15rem;
+    /* margin-right: 15rem; */
     background-color: #0D1821;
     background-color: #1B2430;
     width: 65vw;
@@ -1064,7 +1064,11 @@ footer span {
     /* Main heading */
 
     .mainhead {
-        font-size: 9vw;
+        font-size: 10vw;
+    }
+
+    .head{
+       font-size: 7vw;
     }
 
     .main-heading-container {
@@ -1089,7 +1093,7 @@ footer span {
     #heading2::after {
         width: 24vw;
         top: 2rem;
-        left: -12rem;
+        left: -14rem;
     }
 
     .info {
@@ -1110,7 +1114,7 @@ footer span {
 
     #heading3::after {
         width: 26vw;
-        left: 6.5rem;
+        left: 6.2rem;
     }
 
     .skill-container {
@@ -1135,9 +1139,13 @@ footer span {
     }
     .project-container {
         margin-top: 9rem;
-        margin-left: 1.5rem;
+        margin-left: 0.7rem;
         padding: 1rem;
-        /* width: 34rem;  */
+    }
+
+    .projects {
+        width: 19rem;
+        padding: 1rem;
     }
 
     .lib-img {
@@ -1161,7 +1169,8 @@ footer span {
     }
 
     .blog {
-        width: 19rem;
+        width: 17rem;
+        padding: 1rem;
     }
 
     .blog h3 {
