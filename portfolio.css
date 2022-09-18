@@ -1064,6 +1064,11 @@ footer span {
 
     /* Main heading */
 
+
+    .main-heading-container {
+
+        border: 4px solid red;
+    }
     .mainhead {
         font-size: 10vw;
     }
@@ -1080,8 +1085,12 @@ footer span {
         font-size: 2.9vw;
     }
 
+
     /*  About */
 
+    .about-container {
+        border: 1px solid yellow;
+    }
     #heading2 {
         font-size: 7vw;
     }
@@ -1131,6 +1140,10 @@ footer span {
 
 
     /* Projects */
+
+    .project-container {
+        border: 1px solid blue;
+    }
     #project-heading {
         font-size: 7vw;
     }
@@ -1165,6 +1178,10 @@ footer span {
 
 
     /* Blogs */
+
+    .blogs {
+        border: 1px solid green; 
+    }
 
     .blogs h2 {
         font-size: 7vw;
