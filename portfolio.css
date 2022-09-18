@@ -1068,7 +1068,7 @@ footer span {
     }
 
     .head{
-       font-size: 7vw;
+       font-size: 5vw;
     }
 
     .main-heading-container {
@@ -1076,7 +1076,7 @@ footer span {
     }
 
     .heading p {
-        font-size: 2.6vw;
+        font-size: 2.9vw;
     }
 
     /*  About */
@@ -1093,7 +1093,7 @@ footer span {
     #heading2::after {
         width: 24vw;
         top: 2rem;
-        left: -14rem;
+        left: -7rem;
     }
 
     .info {
@@ -1104,7 +1104,7 @@ footer span {
 
     .about-container p,
     span {
-        font-size: 2.6vw;
+        font-size: 2.9vw;
     }
 
     #heading3 {
@@ -1139,7 +1139,7 @@ footer span {
     }
     .project-container {
         margin-top: 9rem;
-        margin-left: 0.7rem;
+        margin-left: 0;
         padding: 1rem;
     }
 
@@ -1169,7 +1169,7 @@ footer span {
     }
 
     .blog {
-        width: 17rem;
+        width: 18rem;
         padding: 1rem;
     }
 
