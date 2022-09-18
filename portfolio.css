@@ -626,6 +626,7 @@ span.light {
     /* top: 5rem; */
     line-height: 1.8;
     color: rgb(188, 188, 188);
+    
 }
 
 
@@ -1063,7 +1064,7 @@ footer span {
     /* Main heading */
 
     .mainhead {
-        font-size: 8vw;
+        font-size: 9vw;
     }
 
     .main-heading-container {
@@ -1071,7 +1072,7 @@ footer span {
     }
 
     .heading p {
-        font-size: 2.2vw;
+        font-size: 2.6vw;
     }
 
     /*  About */
@@ -1087,19 +1088,19 @@ footer span {
 
     #heading2::after {
         width: 24vw;
-        top: 3rem;
-        left: -9rem;
+        top: 2rem;
+        left: -12rem;
     }
 
     .info {
         padding: 0.5rem;
         /* width: 100%; */
-        width: 21rem;
+        width: 19rem;
     }
 
     .about-container p,
     span {
-        font-size: 2.2vw;
+        font-size: 2.6vw;
     }
 
     #heading3 {
@@ -1109,12 +1110,12 @@ footer span {
 
     #heading3::after {
         width: 26vw;
-        left: 8rem;
+        left: 6.5rem;
     }
 
     .skill-container {
         padding: 0.5rem;
-        width: 21rem;
+        width: 19rem;
     }
 
     .skill-container img {
@@ -1156,11 +1157,11 @@ footer span {
         font-size: 7vw;
     }
     .blogs h2::after {
-        left: 11.5rem;
+        left: 10rem;
     }
 
     .blog {
-        width: 21rem;
+        width: 19rem;
     }
 
     .blog h3 {
@@ -1168,11 +1169,16 @@ footer span {
     }
 
     .blog p {
-        font-size: 2.2vw;
+        font-size:2.6vw;
     }
 
     #meditate-emoji {
         padding: 0.4rem;
     }
+
+    footer span {
+        font-size: 2.5vw;
+    }
+    
 
 }
