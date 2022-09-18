@@ -1089,6 +1089,7 @@ footer span {
     }
 
     .contact{
+        display: block;
         padding: 1rem;
         background: #13315c;
         border: none;
