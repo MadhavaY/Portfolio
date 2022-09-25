@@ -362,6 +362,9 @@ html {
     display: none;
 }
 
+.logo{
+    display: none;
+}
 /* light mode color */
 .main-heading-container.light {
     color: #344966;
@@ -706,7 +709,6 @@ span.light {
 }
 
 #projectButton {
-
     font-family: sans-serif;
     color: #F0F4EF;
     padding: 0.8rem;
@@ -928,15 +930,52 @@ footer span {
         margin: 9rem auto auto 10px;
     }
 
+    .mobile-navbar{
+        /* border: 1px solid red; */
+    }
+
+    .logo{
+        display: inline-block;
+        position: absolute;
+        top: 2rem;
+        left: 2rem;
+    }
+
+
+    .menuicon{
+        display: inline-block;
+        position: relative;
+        float: right;
+        top: 2.4rem;
+        right: 3rem;
+    
+    }
+
+    #menu-icon{
+        font-size: 2rem;
+    }
+
+    .contact{
+        display: block;
+        padding: 1rem;
+        background: #13315c;
+        border: none;
+        border-radius: 4px;
+    }
+
+    .contact a{
+        text-decoration: none;
+        color: #d14d15;
+    }
 
     .about-container {
-        margin-left: 10px;
+        margin-left: 4rem;
         padding: 1rem;
     }
 
     #heading2::after {
         top: 4rem;
-        left: -17rem;
+        left: -16.7rem;
     }
 
     .info {
@@ -946,14 +985,15 @@ footer span {
     }
 
     #heading3 {
-        margin-right: 5rem;
+        margin-right: 9rem;
     }
 
     #heading3::after {
-        left: 37rem;
+        left: 30rem;
     }
 
     .skill-container {
+        margin-left: 2rem;
         width: 45rem;
         padding: 1rem;
     }
@@ -964,10 +1004,19 @@ footer span {
     }
 
 
-    /* .project-container {
-        width:55rem;
-    } */
+    .project-container {
+        margin-left: 4rem;
+    } 
 
+    .projects{
+        /* display: block; */
+        width: 50rem;
+        padding: 1rem;
+    }
+
+    #projectButton {
+        margin-top: 1rem;
+    }
     .blogs h2::after {
         left: 28rem;
     }
@@ -997,6 +1046,39 @@ footer span {
 
     .main-heading-container {
         margin: 9rem auto auto 10px;
+    }
+
+    .mobile-navbar{
+        /* border: 1px solid red; */
+    }
+
+    .logo{
+        display: inline-block;
+        position: absolute;
+        top: 2rem;
+        left: 2rem;
+    }
+
+
+    .menuicon{
+        display: inline-block;
+        position: relative;
+        float: right;
+        top: 2.4rem;
+        right: 3rem;
+    
+    }
+
+    #menu-icon{
+        font-size: 2rem;
+    }
+
+    .contact{
+        display: block;
+        padding: 1rem;
+        background: #13315c;
+        border: none;
+        border-radius: 4px;
     }
 
 
@@ -1101,6 +1183,30 @@ footer span {
         color: #d14d15;
     }
 
+    .mobile-navbar{
+        /* border: 1px solid red; */
+    }
+
+    .logo{
+        display: inline-block;
+        position: absolute;
+        top: 2rem;
+        left: 2rem;
+    }
+
+
+    .menuicon{
+        display: inline-block;
+        position: relative;
+        float: right;
+        top: 2.4rem;
+        right: 3rem;
+    
+    }
+
+    #menu-icon{
+        font-size: 2rem;
+    }
 
     /*  About */
 
