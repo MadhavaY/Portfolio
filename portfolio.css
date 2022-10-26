@@ -1233,7 +1233,7 @@ footer span {
     }
 
     .about-container {
-        margin-top: 4rem;
+        margin-top: 5rem;
         padding: 1rem;
         display: flex;
         margin: auto;
@@ -1246,7 +1246,8 @@ footer span {
     .info {
         padding: 0.5rem;
         /* width: 100%; */
-        width: 21rem;
+        max-width: 19rem;
+        width: 100%;
     }
 
     .about-container p,
@@ -1346,7 +1347,7 @@ footer span {
         flex-direction: column;
     }
     .blog {
-        max-width: 19rem;
+        max-width: 18rem;
         width: 100%;
         padding: 1rem;
         /* margin-left: 0; */
