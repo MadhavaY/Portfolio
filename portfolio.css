@@ -407,7 +407,8 @@ html {
     /* border: 1px solid yellow; */
     /* width: auto; */
     padding: 2rem;
-
+    display: flex;
+    flex-direction: column;
 }
 
 #heading2 {
@@ -510,10 +511,9 @@ span.light {
 
 .skill-container {
     display: flex;
-    flex-wrap: wrap;
-    /* justify-content: space-between; */
+    justify-content: space-around;   
     background-color: #1B2430;
-    width: 60rem;
+     width: 60rem;
     padding: 2rem;
     border-radius: 10px;
     box-shadow: 0px 12px 10px 8px rgba(0, 0, 0, 0.1);
@@ -527,21 +527,16 @@ span.light {
 .skills {
 
     display: flex;
-    /* flex-wrap: wrap; */
-    margin-top: 2.5rem;
-    flex-wrap: wrap;
+    margin-top: 1rem;
     flex-direction: column;
 
 
 }
 
 .skill-container img {
-
-    /* display: flex;
-    padding: 0 1rem 0 6rem; */
-    margin: 0 4rem 1rem 4rem;
-
-
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
 }
 
 .skill-container p {
@@ -1236,14 +1231,13 @@ footer span {
 
     .about-container {
         margin-top: 4rem;
-        margin-left: 1rem;
         padding: 1rem;
+        display: flex;
+        margin: auto;
     }
 
     #heading2::after {
-        width: 24vw;
-        top: 2rem;
-        left: -7rem;
+       display: none;
     }
 
     .info {
@@ -1263,18 +1257,22 @@ footer span {
     }
 
     #heading3::after {
-        width: 26vw;
-        left: 9rem;
+        display: none;
     }
 
     .skill-container {
         padding: 0.5rem;
         width: 21rem;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
     }
 
     .skill-container img {
-        margin: 0 1.3rem 1rem 1.3rem;
+        display: flex;
+        margin: auto;
         width: 3rem;
+
     }
 
 
@@ -1287,6 +1285,10 @@ footer span {
     #project-heading {
         font-size: 7vw;
          
+    }
+
+    #project-heading::after {
+        display: none;
     }
 
     .sub-heading {
@@ -1329,7 +1331,7 @@ footer span {
         font-size: 7vw;
     }
     .blogs h2::after {
-        left: 10rem;
+       display: none;
     }
 
     .blog-container {
