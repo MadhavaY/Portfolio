@@ -1262,7 +1262,8 @@ footer span {
 
     .skill-container {
         padding: 0.5rem;
-        width: 21rem;
+        max-width: 18rem;
+        width: 100%;
         display: flex;
         flex-direction: column;
         margin: auto;
@@ -1306,7 +1307,8 @@ footer span {
     }
 
     .projects {
-        width: 19rem;
+        max-width: 19rem;
+        width: 100%;
         padding: 1rem;
     }
 
@@ -1343,7 +1345,9 @@ footer span {
     .blog {
         width: 20rem;
         padding: 1rem;
-        margin-left: 0;
+        /* margin-left: 0; */
+        display: flex;
+        margin: auto;
     }
 
     .blog h3 {
