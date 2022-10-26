@@ -1156,8 +1156,11 @@ footer span {
 
 
     .main-heading-container {
-        width: 21rem;
+        width: 19rem;
         /* border: 4px solid red; */
+        margin: 0;
+        display: flex;
+        margin: auto;
     }
     .mainhead {
         font-size: 14vw;
@@ -1343,7 +1346,8 @@ footer span {
         flex-direction: column;
     }
     .blog {
-        width: 20rem;
+        max-width: 19rem;
+        width: 100%;
         padding: 1rem;
         /* margin-left: 0; */
         display: flex;
