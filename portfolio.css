@@ -1289,6 +1289,7 @@ footer span {
     } */
     #project-heading {
         font-size: 7vw;
+        margin-top: 7rem;
          
     }
 
@@ -1314,6 +1315,7 @@ footer span {
         max-width: 19rem;
         width: 100%;
         padding: 1rem;
+        /* margin-top: 3rem; */
     }
 
     .lib-img {
@@ -1329,9 +1331,11 @@ footer span {
 
     /* Blogs */
 
-    /* .blogs {
-        border: 1px solid green; 
-    } */
+    .blogs {
+        /* border: 1px solid green;  */
+        margin-top: 7rem;
+        padding: 1rem;
+    }
 
     .blogs h2 {
         font-size: 7vw;
@@ -1341,10 +1345,11 @@ footer span {
     }
 
     .blog-container {
-        display: flex;
-        margin: auto;
+        
         align-items: center;
         flex-direction: column;
+        display: flex;
+        margin: auto;
     }
     .blog {
         max-width: 18rem;
