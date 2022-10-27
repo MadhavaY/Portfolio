@@ -1204,10 +1204,11 @@ footer span {
     }
 
     .logo{
+        width: 2.4rem;
         display: inline-block;
         position: absolute;
         top: 2rem;
-        left: 2rem;
+        left: 1.2rem;
     }
 
 
@@ -1216,7 +1217,7 @@ footer span {
         position: relative;
         float: right;
         top: 2.4rem;
-        right: 0.2rem;
+        right: 1rem;
     
     }
 
@@ -1230,7 +1231,7 @@ footer span {
 
     #heading2 {
         font-size: 7vw;
-        margin-top: 11rem;
+        margin-top: 7rem;
     }
 
     .about-container {
