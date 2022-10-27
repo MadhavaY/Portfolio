@@ -414,7 +414,7 @@ html {
 #heading2 {
 
     font-size: 5vw;
-    text-align: center;
+    /* text-align: center; */
     -webkit-text-stroke: 1px #B4CDED;
     /* -webkit-text-stroke: 0.8px #f06428; */
     -webkit-text-fill-color: transparent;
@@ -435,7 +435,7 @@ html {
     height: 1px;
     position: absolute;
     display: block;
-    left: 39rem;
+    /* left: 39rem; */
 
 }
 
@@ -492,7 +492,7 @@ span.light {
 
 
 #heading3 {
-    text-align: center;
+    /* text-align: center; */
     font-size: 5vw;
     -webkit-text-stroke: 1px #B4CDED;
     -webkit-text-fill-color: transparent;
@@ -506,7 +506,7 @@ span.light {
     background-color: #f06428;
     height: 1px;
     position: absolute;
-    left: 41rem;
+    /* left: 41rem; */
 }
 
 .skill-container {
@@ -594,7 +594,7 @@ span.light {
 #project-heading {
     font-size: 5vw;
     /* -webkit-text-stroke: 1px #B4CDED; */
-    text-align: center;
+    /* text-align: center; */
     
     -webkit-text-stroke: 1px #B4CDED;
     -webkit-text-fill-color: transparent;
@@ -609,7 +609,7 @@ span.light {
     background-color: #f06428;
     position: absolute;
     display: block;
-    left: 39rem;
+    /* left: 39rem; */
 }
 
 .projects {
@@ -1230,10 +1230,11 @@ footer span {
 
     #heading2 {
         font-size: 7vw;
+        margin-top: 11rem;
     }
 
     .about-container {
-        margin-top: 5rem;
+        /* margin-top: 12rem; */
         padding: 1rem;
         display: flex;
         margin: auto;
@@ -1246,17 +1247,17 @@ footer span {
     .info {
         padding: 0.5rem;
         /* width: 100%; */
-        max-width: 19rem;
+        max-width: 20rem;
         width: 100%;
     }
 
     .about-container p,
     span {
-        font-size: 2.9vw;
+        font-size: 3.8vw;
     }
 
     #heading3 {
-        margin-right: 1rem;
+        margin-top: 3rem;
         font-size: 7vw;
     }
 
@@ -1266,7 +1267,7 @@ footer span {
 
     .skill-container {
         padding: 0.5rem;
-        max-width: 18rem;
+        max-width: 19rem;
         width: 100%;
         display: flex;
         flex-direction: column;
@@ -1276,11 +1277,14 @@ footer span {
     .skill-container img {
         display: flex;
         margin: auto;
-        width: 3rem;
+        width: 6rem;
+        padding: 1rem;
 
     }
 
-
+    .skill-container p {
+        font-size:1.2rem;
+    }
 
     /* Projects */
 
@@ -1307,8 +1311,9 @@ footer span {
     .project-container {
         /* margin-left: 1rem; */
         padding: 1rem;
-        display: flex;
-        margin: auto;
+        display: block;
+        /* margin: auto; */
+        margin-left: 0;
     }
 
     .projects {
@@ -1316,6 +1321,8 @@ footer span {
         width: 100%;
         padding: 1rem;
         /* margin-top: 3rem; */
+        display: flex;
+        margin: auto;
     }
 
     .lib-img {
