@@ -22,12 +22,12 @@
         <div class="logoimg">
             <a href="/All Projects/Portfolio project/homepage.html"> <img src="./icon.png" class="icon" alt=""> </a>
         </div>
-        
+
         <ul>
-            
+
             <li> <a href="#" class="navbarelements">Home</a> </li>
             <li><a href="#about" class="navbarelements">About</a></li>
-            <li><a href="#projects" class="navbarelements">Projects</a></li>
+            <li><a href="#project" class="navbarelements">Projects</a></li>
             <li><a href="#blogs" class="navbarelements">Blogs</a></li>
             <li>
                 <div class="dark-mode-container navbarelements">
@@ -62,15 +62,49 @@
     </div>
 
     <div class="mobile-navbar">
-        <a href="/All Projects/Portfolio project/homepage.html"> <img src="./icon.png" class="logo" alt=""> </a>
+        <a href="https://madhavayedla.vercel.app/"> <img src="./icon.png" class="logo" alt=""> </a>
 
-        <div class="menu">
-            <span class="menuicon">
-                <span id="menu-icon" class="material-symbols-outlined">
-                    menu
-                </span>
-            </span>
+        <div class="menu-icon">
+            <div class="line-1"></div>
+            <div class="line-2"></div>
+            <div class="line-3"></div>
         </div>
+
+        <nav>
+            <div  class="mobile-menu">
+              <ul class="mobileMenu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#project">Projects</a></li>
+                <li><a href="#blogs">Blogs</a></li>
+                <li>
+                    <div class="dark-mode-container navbarelements">
+                        <input type="checkbox" id="checkbox" class="checkbox">
+                        <label for="checkbox" class="label">
+    
+    
+    
+                            <i class="fas fa-moon"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                    fill="currentColor" class="bi bi-moon-fill" viewBox="0 0 16 16">
+                                    <path
+                                        d="M6 .278a.768.768 0 0 1 .08.858 7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278z" />
+                                </svg></i>
+    
+    
+                            <i class="fas fa-sun"><img class="sunicon" alt="svgImg"
+                                    src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4Igp3aWR0aD0iMzAiIGhlaWdodD0iMzAiCnZpZXdCb3g9IjAgMCAxNzIgMTcyIgpzdHlsZT0iIGZpbGw6IzAwMDAwMDsiPjxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0ibm9uemVybyIgc3Ryb2tlPSJub25lIiBzdHJva2Utd2lkdGg9IjEiIHN0cm9rZS1saW5lY2FwPSJidXR0IiBzdHJva2UtbGluZWpvaW49Im1pdGVyIiBzdHJva2UtbWl0ZXJsaW1pdD0iMTAiIHN0cm9rZS1kYXNoYXJyYXk9IiIgc3Ryb2tlLWRhc2hvZmZzZXQ9IjAiIGZvbnQtZmFtaWx5PSJub25lIiBmb250LXdlaWdodD0ibm9uZSIgZm9udC1zaXplPSJub25lIiB0ZXh0LWFuY2hvcj0ibm9uZSIgc3R5bGU9Im1peC1ibGVuZC1tb2RlOiBub3JtYWwiPjxwYXRoIGQ9Ik0wLDE3MnYtMTcyaDE3MnYxNzJ6IiBmaWxsPSJub25lIj48L3BhdGg+PGcgZmlsbD0iI2YxYzQwZiI+PHBhdGggZD0iTTg1LjkxMDQyLDUuNjU0OTVjLTMuMTYyMDMsMC4wNDk0MyAtNS42ODcwNSwyLjY0OTYgLTUuNjQzNzUsNS44MTE3MnYxNy4yYy0wLjAyOTI0LDIuMDY3NjUgMS4wNTcwOSwzLjk5MDg3IDIuODQzLDUuMDMzMjJjMS43ODU5MiwxLjA0MjM2IDMuOTk0NzQsMS4wNDIzNiA1Ljc4MDY2LDBjMS43ODU5MiwtMS4wNDIzNiAyLjg3MjI1LC0yLjk2NTU4IDIuODQzLC01LjAzMzIydi0xNy4yYzAuMDIxMjIsLTEuNTQ5NzIgLTAuNTg1ODEsLTMuMDQyMDMgLTEuNjgyNzksLTQuMTM2OWMtMS4wOTY5OCwtMS4wOTQ4NyAtMi41OTA0NSwtMS42OTkwMyAtNC4xNDAxMywtMS42NzQ4MnpNMzMuMjM1NDIsMjcuNTEzMjhjLTIuMzMwOTksMC4wMDUxNiAtNC40MjY4NiwxLjQyMDk0IC01LjMwMTg5LDMuNTgxNDZjLTAuODc1MDIsMi4xNjA1MiAtMC4zNTUwMiw0LjYzNTc1IDEuMzE1NDMsNi4yNjE1MWwxMi4xNjA5NCwxMi4xNjA5NGMxLjQzODAzLDEuNDk3NzMgMy41NzMzOCwyLjEwMTA0IDUuNTgyNTUsMS41NzcyNWMyLjAwOTE3LC0wLjUyMzc5IDMuNTc4MiwtMi4wOTI4MiA0LjEwMTk5LC00LjEwMTk5YzAuNTIzNzksLTIuMDA5MTcgLTAuMDc5NTIsLTQuMTQ0NTMgLTEuNTc3MjUsLTUuNTgyNTVsLTEyLjE2MDk0LC0xMi4xNjA5NGMtMS4wODIxMywtMS4xMTIzOCAtMi41Njg5NCwtMS43Mzg2MSAtNC4xMjA4MywtMS43MzU2OHpNMTM4LjU4NTQyLDI3LjUxMzI4Yy0xLjQ4OTUxLDAuMDQ0MzggLTIuOTAzMjQsMC42NjY5IC0zLjk0MTY3LDEuNzM1NjhsLTEyLjE2MDk0LDEyLjE2MDk0Yy0xLjQ5NzcxLDEuNDM4MDMgLTIuMTAxMDEsMy41NzMzOCAtMS41NzcyMiw1LjU4MjU0YzAuNTIzNzksMi4wMDkxNiAyLjA5MjgxLDMuNTc4MTggNC4xMDE5Nyw0LjEwMTk3YzIuMDA5MTYsMC41MjM3OSA0LjE0NDUxLC0wLjA3OTUxIDUuNTgyNTQsLTEuNTc3MjJsMTIuMTYwOTQsLTEyLjE2MDk0YzEuNjk1NjksLTEuNjQ4MjggMi4yMDU1NSwtNC4xNjg1MSAxLjI4Mzg5LC02LjM0NjNjLTAuOTIxNjYsLTIuMTc3NzkgLTMuMDg1NzYsLTMuNTY2MzggLTUuNDQ5NTIsLTMuNDk2Njd6TTg2LDQ1Ljg2NjY3Yy0yMi4xNjUwMywwIC00MC4xMzMzMywxNy45NjgzMSAtNDAuMTMzMzMsNDAuMTMzMzNjMCwyMi4xNjUwMyAxNy45NjgzMSw0MC4xMzMzMyA0MC4xMzMzMyw0MC4xMzMzM2MyMi4xNjUwMywwIDQwLjEzMzMzLC0xNy45NjgzMSA0MC4xMzMzMywtNDAuMTMzMzNjMCwtMjIuMTY1MDMgLTE3Ljk2ODMxLC00MC4xMzMzMyAtNDAuMTMzMzMsLTQwLjEzMzMzek0xMS40NjY2Nyw4MC4yNjY2N2MtMi4wNjc2NSwtMC4wMjkyNCAtMy45OTA4NywxLjA1NzA5IC01LjAzMzIyLDIuODQzYy0xLjA0MjM2LDEuNzg1OTIgLTEuMDQyMzYsMy45OTQ3NCAwLDUuNzgwNjZjMS4wNDIzNiwxLjc4NTkyIDIuOTY1NTgsMi44NzIyNSA1LjAzMzIyLDIuODQzaDE3LjJjMi4wNjc2NSwwLjAyOTI0IDMuOTkwODcsLTEuMDU3MDkgNS4wMzMyMiwtMi44NDNjMS4wNDIzNiwtMS43ODU5MiAxLjA0MjM2LC0zLjk5NDc0IDAsLTUuNzgwNjZjLTEuMDQyMzYsLTEuNzg1OTIgLTIuOTY1NTgsLTIuODcyMjUgLTUuMDMzMjIsLTIuODQzek0xNDMuMzMzMzMsODAuMjY2NjdjLTIuMDY3NjUsLTAuMDI5MjQgLTMuOTkwODcsMS4wNTcwOSAtNS4wMzMyMiwyLjg0M2MtMS4wNDIzNiwxLjc4NTkyIC0xLjA0MjM2LDMuOTk0NzQgMCw1Ljc4MDY2YzEuMDQyMzYsMS43ODU5MiAyLjk2NTU4LDIuODcyMjUgNS4wMzMyMiwyLjg0M2gxNy4yYzIuMDY3NjUsMC4wMjkyNCAzLjk5MDg3LC0xLjA1NzA5IDUuMDMzMjIsLTIuODQzYzEuMDQyMzYsLTEuNzg1OTIgMS4wNDIzNiwtMy45OTQ3NCAwLC01Ljc4MDY2Yy0xLjA0MjM2LC0xLjc4NTkyIC0yLjk2NTU4LC0yLjg3MjI1IC01LjAzMzIyLC0yLjg0M3pNNDUuMzUxNTYsMTIwLjc0NzE0Yy0xLjQ4OTUxLDAuMDQ0MzggLTIuOTAzMjQsMC42NjY5IC0zLjk0MTY3LDEuNzM1NjdsLTEyLjE2MDk0LDEyLjE2MDk0Yy0xLjQ5NzcyLDEuNDM4MDMgLTIuMTAxMDIsMy41NzMzOCAtMS41NzcyMyw1LjU4MjU0YzAuNTIzNzksMi4wMDkxNiAyLjA5MjgxLDMuNTc4MTkgNC4xMDE5OCw0LjEwMTk4YzIuMDA5MTYsMC41MjM3OSA0LjE0NDUxLC0wLjA3OTUxIDUuNTgyNTQsLTEuNTc3MjNsMTIuMTYwOTQsLTEyLjE2MDk0YzEuNjk1NjksLTEuNjQ4MjggMi4yMDU1NSwtNC4xNjg1MSAxLjI4Mzg5LC02LjM0NjNjLTAuOTIxNjYsLTIuMTc3NzkgLTMuMDg1NzYsLTMuNTY2MzggLTUuNDQ5NTIsLTMuNDk2Njd6TTEyNi40ODA0NywxMjAuNzQ3MTRjLTIuMzMzMDMsMC4wMDA2MSAtNC40MzMwNywxLjQxNDczIC01LjMxMDk3LDMuNTc2MjhjLTAuODc3OSwyLjE2MTU1IC0wLjM1ODYsNC42Mzk1IDEuMzEzMzEsNi4yNjY2OWwxMi4xNjA5NCwxMi4xNjA5NGMxLjQzODAzLDEuNDk3NyAzLjU3MzM4LDIuMTAwOTggNS41ODI1MiwxLjU3NzE5YzIuMDA5MTUsLTAuNTIzNzkgMy41NzgxNywtMi4wOTI4MSA0LjEwMTk2LC00LjEwMTk2YzAuNTIzNzksLTIuMDA5MTUgLTAuMDc5NDksLTQuMTQ0NDkgLTEuNTc3MTksLTUuNTgyNTJsLTEyLjE2MDk0LC0xMi4xNjA5NGMtMS4wNzk0MiwtMS4xMDk1OSAtMi41NjE2MywtMS43MzU1OSAtNC4xMDk2NCwtMS43MzU2N3pNODUuOTEwNDIsMTM3LjUyMTYxYy0zLjE2MjAzLDAuMDQ5NDMgLTUuNjg3MDUsMi42NDk2IC01LjY0Mzc1LDUuODExNzJ2MTcuMmMtMC4wMjkyNCwyLjA2NzY1IDEuMDU3MDksMy45OTA4NyAyLjg0Myw1LjAzMzIyYzEuNzg1OTIsMS4wNDIzNiAzLjk5NDc0LDEuMDQyMzYgNS43ODA2NiwwYzEuNzg1OTIsLTEuMDQyMzYgMi44NzIyNSwtMi45NjU1OCAyLjg0MywtNS4wMzMyMnYtMTcuMmMwLjAyMTIyLC0xLjU0OTcyIC0wLjU4NTgxLC0zLjA0MjAzIC0xLjY4Mjc5LC00LjEzNjljLTEuMDk2OTgsLTEuMDk0ODcgLTIuNTkwNDUsLTEuNjk5MDMgLTQuMTQwMTMsLTEuNjc0ODJ6Ij48L3BhdGg+PC9nPjwvZz48L3N2Zz4=" /></i>
+    
+    
+    
+    
+                            <div class="ball"></div>
+                        </label>
+    
+                    </div>
+                </li>
+              </ul>
+            </div>
+          </nav>
     </div>
 
 
@@ -212,7 +246,7 @@
                 <div class="skills">
 
                     <img alt="svgImg"
-                        src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4Igp3aWR0aD0iMTIwIiBoZWlnaHQ9IjEyMCIKdmlld0JveD0iMCAwIDE3MiAxNzIiCnN0eWxlPSIgZmlsbDojMDAwMDAwOyI+PGcgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJub25lIiBzdHJva2U9Im5vbmUiIHN0cm9rZS13aWR0aD0iMSIgc3Ryb2tlLWxpbmVjYXA9ImJ1dHQiIHN0cm9rZS1saW5lam9pbj0ibWl0ZXIiIHN0cm9rZS1taXRlcmxpbWl0PSIxMCIgc3Ryb2tlLWRhc2hhcnJheT0iIiBzdHJva2UtZGFzaG9mZnNldD0iMCIgZm9udC1mYW1pbHk9Im5vbmUiIGZvbnQtd2VpZ2h0PSJub25lIiBmb250LXNpemU9Im5vbmUiIHRleHQtYW5jaG9yPSJub25lIiBzdHlsZT0ibWl4LWJsZW5kLW1vZGU6IG5vcm1hbCI+PHBhdGggZD0iTTAsMTcydi0xNzJoMTcydjE3MnoiIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0ibm9uemVybyI+PC9wYXRoPjxnIGZpbGw9IiNmZmZmZmYiIGZpbGwtcnVsZT0iZXZlbm9kZCI+PHBhdGggZD0iTTE0NC40OCwyMC42NGwtMTAuMzIsMTE2Ljk2bC00OC4xNiwxMy43NmwtNDguMTYsLTEzLjc2bC0xMC4zMiwtMTE2Ljk2ek01Ny43OTQ2OSw5Ni4zMmgxMy43NmwwLjMzNTk0LDguNmwxNC4xMDkzNyw0LjgxMDYzbDE0LjEwOTM4LC00LjgxMDYzbDEuMDIxMjUsLTE1LjQ4aC0zMC4yNjEyNWwtMC42OTg3NSwtMTMuNzZoMzEuNjU4NzVsMS4wMjEyNSwtMTMuNzZoLTQ3LjQ2MTI1bC0xLjAzNDY5LC0xMy43Nmg2Mi45NTQ2OWwtMS43MiwyNy41MmwtMi40MTg3NSwzOS41NmwtMjcuMTcwNjMsOC45NDkzOGwtMjcuMTcwNjIsLTguOTQ5Mzh6Ij48L3BhdGg+PC9nPjwvZz48L3N2Zz4=" />
+                        src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4Igp3aWR0aD0iMTQwIiBoZWlnaHQ9IjE0MCIKdmlld0JveD0iMCAwIDE3MiAxNzIiCnN0eWxlPSIgZmlsbDojMDAwMDAwOyI+PGcgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJub25lIiBzdHJva2U9Im5vbmUiIHN0cm9rZS13aWR0aD0iMSIgc3Ryb2tlLWxpbmVjYXA9ImJ1dHQiIHN0cm9rZS1saW5lam9pbj0ibWl0ZXIiIHN0cm9rZS1taXRlcmxpbWl0PSIxMCIgc3Ryb2tlLWRhc2hhcnJheT0iIiBzdHJva2UtZGFzaG9mZnNldD0iMCIgZm9udC1mYW1pbHk9Im5vbmUiIGZvbnQtd2VpZ2h0PSJub25lIiBmb250LXNpemU9Im5vbmUiIHRleHQtYW5jaG9yPSJub25lIiBzdHlsZT0ibWl4LWJsZW5kLW1vZGU6IG5vcm1hbCI+PHBhdGggZD0iTTAsMTcydi0xNzJoMTcydjE3MnoiIGZpbGw9IiMxYjI0MzAiIGZpbGwtcnVsZT0ibm9uemVybyI+PC9wYXRoPjxnIGZpbGw9IiNmZmZmZmYiIGZpbGwtcnVsZT0iZXZlbm9kZCI+PHBhdGggZD0iTTEzNC4xNiwxMzcuNmwtNDguMTYsMTMuNzZsLTQ4LjE2LC0xMy43NmwtMTAuMzIsLTExNi45NmgxMTYuOTZjLTMuNDQsMzguOTgyMTkgLTYuODgsNzcuOTc3ODEgLTEwLjMyLDExNi45NnpNMTM2Ljk2ODQ0LDI3LjUyaC0xMDEuOTM2ODdsOS4yNDUsMTA0Ljc1ODc1bDQxLjcyMzQ0LDExLjkzMjVsNDEuNzIzNDQsLTExLjkzMjV6TTU3Ljc5NDY5LDk2LjMyaDEzLjc2bDAuMzM1OTQsOC42bDE0LjEwOTM3LDQuODEwNjNsMTQuMTA5MzgsLTQuODEwNjNsMS4wMjEyNSwtMTUuNDhoLTMwLjI2MTI1bC0wLjY5ODc1LC0xMy43NmgzMS42NTg3NWwxLjAyMTI1LC0xMy43NmgtNDcuNDYxMjVsLTEuMDM0NjksLTEzLjc2aDYyLjk1NDY5bC0xLjcyLDI3LjUybC0yLjQxODc1LDM5LjU2bC0yNy4xNzA2Myw4Ljk0OTM4bC0yNy4xNzA2MiwtOC45NDkzOHoiPjwvcGF0aD48L2c+PC9nPjwvc3ZnPg==" />
 
                     <p class="skill-names">CSS</p>
 
@@ -229,7 +263,7 @@
 
                 </div>
 
-               
+
 
                 <div class="skills">
 
@@ -239,7 +273,7 @@
 
                 </div>
 
-                 <!-- <div class="skills">
+                <!-- <div class="skills">
 
                     <img src="./bootsrapicon.png" alt="">
 
@@ -256,7 +290,7 @@
 
     <!--       ***********            Projects           ********              -->
 
-    
+
     <div class="project" id="project">
 
 
@@ -264,7 +298,7 @@
 
             <h2 id="project-heading">Projects</h2>
             <div class="projects">
-               
+
                 <span id="prev-arrow" class="material-symbols-outlined">
                     arrow_back_ios
                 </span>
@@ -299,11 +333,11 @@
 
                     </p>
 
-                    <a href="https://infinitequote.netlify.app" target="_blank">
+                    <!-- <a href="https://infinitequote.netlify.app" target="_blank">
 
                         <button id="projectButton">View Live</button>
 
-                    </a>
+                    </a> -->
 
 
                 </div>

@@ -1,32 +1,33 @@
 
+// Mobile Menu
 
-function myFunction() {
-    var element = document.body;
-    element.classList.toggle("dark-mode");
-  }
-
+// $(".menu-icon").click(function(){
+//   console.log("clicked");
+//   $(".line-1").toggleClass(".line-1-activate");
+//   $(".line-2").toggleClass(".line-2-activate");
+//   $(".line-3").toggleClass(".line-3-activate");
   
-  $("#slidetoggle").click(function(){
+
+//   $("#mobile-menu").toggleClass("#mobile-menu-activate");
+
+//   console.log("clicked");
+// })
+
+
+
+$(".menu-icon").click(function(){
+    
+  $(".line-1").toggleClass("line-1-activate");
+  $(".line-2").toggleClass("line-2-activate");
+  $(".line-3").toggleClass("line-3-activate");
+
+
+  $(".mobile-menu").toggleClass("mobile-menu-activate");
   
-    
-               $("#project2-tab").slideToggle();
-               $("#slidetoggle2").toggleClass('click');
-              //  $("#project-1").slideToggle();
-               
-  });
+})
 
 
-  $("#slidetoggle2").click(function(){
-
-    $("#library-tab").slideToggle();
-    $("#arrow").toggleClass('click');
-    
-  })
-
-
-
-
-  //   Projects
+//   Projects
 
   var Projects = [
 
@@ -184,8 +185,8 @@ const checkbox = document.getElementById('checkbox');
 checkbox.addEventListener('change', ()=>{
 
   document.body.classList.toggle('light');
- 
-  // navbra
+  console.log("Clicked");
+  // navbar
   $('.navbar ul li a').toggleClass('light');
 
 
@@ -223,3 +224,7 @@ checkbox.addEventListener('change', ()=>{
 
   
 })
+
+
+
+
