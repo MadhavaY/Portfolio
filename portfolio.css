@@ -1422,8 +1422,8 @@ footer span {
         font-size: 7vw;
         margin-top: 7rem;
         color: #B4CDED;
-        /* -webkit-text-stroke: none;
-        -webkit-text-fill-color: none; */
+        -webkit-text-stroke: 0px #000000;
+        -webkit-text-fill-color: #D6E6F2;
     }
 
     .about-container {
@@ -1453,8 +1453,8 @@ footer span {
         margin-top: 3rem;
         font-size: 7vw;
         color: #B4CDED;
-        -webkit-text-stroke: none;
-        -webkit-text-fill-color: none;
+        -webkit-text-stroke: 0px #000000;
+        -webkit-text-fill-color: #D6E6F2;
     }
 
     #heading3::after {
@@ -1491,8 +1491,8 @@ footer span {
         font-size: 7vw;
         margin-top: 7rem;
         color: #B4CDED;
-        -webkit-text-stroke: none;
-        -webkit-text-fill-color: none;
+        -webkit-text-stroke: 0px #000000;
+        -webkit-text-fill-color: #D6E6F2;
          
     }
 
@@ -1545,6 +1545,8 @@ footer span {
 
     .blogs h2 {
         font-size: 7vw;
+        -webkit-text-stroke: 0px #000000;
+        -webkit-text-fill-color: #D6E6F2;
         
     }
     .blogs h2::after {
