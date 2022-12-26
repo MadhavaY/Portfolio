@@ -111,6 +111,16 @@ html {
     color: #F15412;
 }
 
+.navbar-hide{
+    opacity: 0;
+    transition: all 1s;
+    transform: translateY(-15%);
+}
+
+.navbar-show{
+opacity: 1;
+transform: translateY(0);
+}
 
 
 

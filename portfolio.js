@@ -30,14 +30,15 @@ $(".menu-icon").click(function(){
 const navbarObserver = new IntersectionObserver((entries)=>{
   entries.forEach((entry)=>{
     if(entry.isIntersecting){
-      entry.target.classList.add('')
+      entry.target.classList.add('navbar-show')
     }else{
       return;
     }
   })
 })
 
-// const hidddenEL
+const hidddenNavElements = document.querySelectorAll('.navbar-hide');
+hidddenNavElements.forEach((el)=>navbarObserver.observe(el));
 
 
 // fade in animations
