@@ -26,6 +26,54 @@ $(".menu-icon").click(function(){
   
 })
 
+// navbar animations
+const navbarObserver = new IntersectionObserver((entries)=>{
+  entries.forEach((entry)=>{
+    if(entry.isIntersecting){
+      entry.target.classList.add('')
+    }else{
+      return;
+    }
+  })
+})
+
+// const hidddenEL
+
+
+// fade in animations
+
+const observer = new IntersectionObserver((entries)=>{
+  entries.forEach((entry)=>{
+    // console.log(entry);
+    if(entry.isIntersecting){
+      entry.target.classList.add('appear');
+    }else{
+      return;
+    }
+  })
+})
+
+const hiddenElements = document.querySelectorAll('.fade-in');
+hiddenElements.forEach((el)=>observer.observe(el));
+
+
+// left fadein
+
+const leftObserver = new IntersectionObserver((entries)=>{
+  entries.forEach((entry)=>{
+      console.log(entry);
+      if(entry.isIntersecting){
+          entry.target.classList.add('show');
+      }else{
+          return;
+      }
+  })
+})
+
+
+
+const leftHiddenElements = document.querySelectorAll('.hidden');
+leftHiddenElements.forEach((leftel)=>leftObserver.observe(leftel));
 
 //   Projects
 

@@ -190,6 +190,14 @@ html {
 }
 
 
+.hidden{
+    opacity: 0;
+    transition: all 1s;
+}
+
+.show{
+    opacity: 1;
+}
 
 .left ul li {
     list-style: none;
@@ -224,6 +232,7 @@ html {
 
 
 .left ul::after {
+    transition-delay: 1000ms;
     content: "";
     width: 1px;
     height: 180px;
@@ -233,6 +242,7 @@ html {
     /* background-color: #344966; */
     display: block;
     margin: 0px auto;
+    
 
 }
 
@@ -261,6 +271,11 @@ html {
     align-items: center;
     right: 40px;
     width: 40px;
+    transition-delay: all 900ms;
+}
+
+.delayemail{
+    transition-delay: 1250ms;
 }
 
 .email a {
@@ -271,6 +286,7 @@ html {
     transition: height 0.5s;
     text-decoration: none;
     transition: all 0.2s;
+    
 }
 
 .email a:hover {
@@ -317,8 +333,14 @@ html {
     height: 30rem;
     padding: 2rem;
     width: 74vw;
+    /* transform:  translateY(-50%);
+    transition: transform 400ms ease-in; */
 
 }
+
+/* .main-heading-container.fade-in.appear{
+    transform: translateY(0);
+} */
 
 .heading {
     float: left;
@@ -376,6 +398,33 @@ html {
     text-decoration: none;
     color: white;
 }
+
+
+.fade-in{
+    opacity: 0;
+    transition:all 1s;
+    transform: translateY(20%);
+  }
+
+  .fade-in.appear{
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  .one:nth-child(3){
+    transition-delay: 800ms;
+  }
+
+  .one:nth-child(4){
+    transition-delay: 900ms;
+  }
+  .one:nth-child(5){
+    transition-delay: 900ms;
+  }
+
+  .one:nth-child(6){
+    transition-delay: 900ms;
+  }
 
 .mobile-navbar{
     display: none;
