@@ -761,13 +761,13 @@ span.light {
     height: 20px;
     cursor: pointer;
     position: absolute;
-    margin-left: 0.5rem;
-    margin-top: 0.3rem;
+    display: flex;
+    margin: auto;
 
 }
 
-#git-project-link:hover {
-    color: #F15412;
+.link{
+    padding-left: 2rem;
 }
 
 .projects a {
@@ -951,7 +951,8 @@ span.light {
 }
 
 .blogs h2.light {
-    -webkit-text-stroke: 1px #000000;
+    -webkit-text-stroke: 0px #000000;
+    -webkit-text-fill-color: #344966;
 }
 
 .blog.light {
@@ -1516,6 +1517,16 @@ footer span {
         -webkit-text-fill-color: #D6E6F2;
     }
 
+    #heading2.light {
+        -webkit-text-stroke: 0px #000000;
+        -webkit-text-fill-color: #344966;
+    }
+
+    #heading3.light {
+        -webkit-text-stroke: 0px #000000;
+        -webkit-text-fill-color: #344966;
+    }
+
     #heading3::after {
         display: none;
     }
@@ -1541,6 +1552,7 @@ footer span {
         font-size:1.2rem;
     }
 
+
     /* Projects */
 
     /* .project-container {
@@ -1553,6 +1565,11 @@ footer span {
         -webkit-text-stroke: 0px #000000;
         -webkit-text-fill-color: #D6E6F2;
          
+    }
+
+    #project-heading.light {
+        -webkit-text-stroke: 0px #000000;
+        -webkit-text-fill-color: #344966;
     }
 
     #project-heading::after {
@@ -1593,6 +1610,8 @@ footer span {
         border-radius: 8px;
     }
 
+    
+    
 
     /* Blogs */
 
@@ -1608,6 +1627,12 @@ footer span {
         -webkit-text-fill-color: #D6E6F2;
         
     }
+
+    .blogs h2.light {
+        -webkit-text-stroke: 0px #000000;
+        -webkit-text-fill-color: #344966;
+    }
+
     .blogs h2::after {
        display: none;
     }
