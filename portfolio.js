@@ -182,57 +182,57 @@ leftHiddenElements.forEach((leftel)=>leftObserver.observe(leftel));
 
   
 
-  let nxtarrow = document.getElementById('next-arrow');
-  let prevarrow = document.getElementById('prev-arrow');
-  console.log(nxtarrow);
-  console.log(prevarrow);
+  // let nxtarrow = document.getElementById('next-arrow');
+  // let prevarrow = document.getElementById('prev-arrow');
+  // console.log(nxtarrow);
+  // console.log(prevarrow);
 
-  let heading = document.getElementById('title');
-  let text = document.getElementById('text');
-  let img = document.getElementById('Projectimg');
+  // let heading = document.getElementById('title');
+  // let text = document.getElementById('text');
+  // let img = document.getElementById('Projectimg');
   // console.log(img.src);
 
-  var currentHead = 0;
+  // var currentHead = 0;
 
-  nxtarrow.onclick = function(){
+  // nxtarrow.onclick = function(){
 
-    console.log('clicked')
-    if(currentHead == (Projects.length -1)){
-       currentHead = 0;
-    }
-    else{
-      currentHead++;
-    }
+  //   console.log('clicked')
+  //   if(currentHead == (Projects.length -1)){
+  //      currentHead = 0;
+  //   }
+  //   else{
+  //     currentHead++;
+  //   }
 
-    var title = Projects[currentHead].heading;
-    var para = Projects[currentHead].text;
-    var imgsrc = Projects[currentHead].img;
-    heading.innerHTML = title;
-    text.innerHTML = para;
-    img.src = imgsrc;
+  //   var title = Projects[currentHead].heading;
+  //   var para = Projects[currentHead].text;
+  //   var imgsrc = Projects[currentHead].img;
+  //   heading.innerHTML = title;
+  //   text.innerHTML = para;
+  //   img.src = imgsrc;
 
-    }
+  //   }
 
 
 
-    prevarrow.onclick = function(){
+  //   prevarrow.onclick = function(){
 
-      console.log('clicked')
-      if(currentHead == (Projects.length +1)){
-         currentHead = 0;
-      }
-      else{
-        currentHead++;
-      }
+  //     console.log('clicked')
+  //     if(currentHead == (Projects.length +1)){
+  //        currentHead = 0;
+  //     }
+  //     else{
+  //       currentHead++;
+  //     }
   
-      var title = Projects[currentHead].heading;
-      var para = Projects[currentHead].text;
-      var imgsrc = Projects[currentHead].img;
-      heading.innerHTML = title;
-      text.innerHTML = para;
-      img.src = imgsrc;
+  //     var title = Projects[currentHead].heading;
+  //     var para = Projects[currentHead].text;
+  //     var imgsrc = Projects[currentHead].img;
+  //     heading.innerHTML = title;
+  //     text.innerHTML = para;
+  //     img.src = imgsrc;
   
-      }
+  //     }
 
   
 // ********** Blogs *********
