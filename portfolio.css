@@ -399,6 +399,7 @@ html {
     background: #F15412;
 }
 
+
 .contact:hover {
     cursor: pointer;
     background-color: #002B5B;
@@ -437,6 +438,11 @@ html {
 .one:nth-child(6) {
     transition-delay: 900ms;
 }
+
+.one:nth-child(7) {
+    transition-delay: 900ms;
+}
+
 
 .mobile-navbar {
     display: none;
@@ -1339,7 +1345,7 @@ footer span {
     }
 
     .contact {
-        display: block;
+        /* display: block; */
         padding: 1rem;
         background: #13315c;
         border: none;
