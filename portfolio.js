@@ -281,6 +281,10 @@ checkbox.addEventListener('change', ()=>{
   $('.projects').toggleClass('light');
   $('.library-project p').toggleClass('light');
   $('#git-project-link').toggleClass('light');
+  $('.foodordering').toggleClass('light');
+  $('.randomquotes').toggleClass('light');
+  $('.librarypoject').toggleClass('light');
+  $('.todolist').toggleClass('light');
 
   // blogs
   $('.blogs h2').toggleClass('light');

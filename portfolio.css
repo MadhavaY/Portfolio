@@ -788,9 +788,16 @@ span.light {
 
 /* light mode projects */
 
-.projects.light {
+/* .projects.light {
     background-color: #81b0cd;
-}
+} */
+
+.librarypoject.light,
+.randomquotes.light,
+.foodordering.light,
+.todolist.light{
+    background-color: #81b0cd;
+} 
 
 #project-heading.light {
     -webkit-text-stroke: 1px #000000;
